@@ -1,0 +1,15 @@
+
+find - syntax
+
+find(first, last, val);
+
+Parameters:
+
+first: Iterator to the first element of range.
+last: Iterator to the theoretical element just after the last element of range.
+val: Value to be searched.
+
+Return Value:
+
+If the value is found in the range, returns an iterator to its position otherwise return end iterator.
+
