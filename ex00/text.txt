@@ -13,3 +13,19 @@ Return Value:
 
 If the value is found in the range, returns an iterator to its position otherwise return end iterator.
 
+- this function need to be able to work with different type of containers. 
+(vector, list, deque, etc..)
+-First parameter - A container of type T (std::vector<int>)
+- Second parameter - A integer value to search for
+
+- Should the container be passed by value of refference. Why
+
+- How to search through a generic container
+- What do all standard containers have in common? Iterators
+
+what to return 
+- if i find the result should i return a iterator, a value, or the position 
+-if not found - Throw an exception. Which type?
+			- return a specific iterator value(which one means not found)
+			
+
